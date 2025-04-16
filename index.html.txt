@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Strona</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cześć! Nazywam się Jan Kowalski</h1>
+    <p>Szukam pracy biurowej</p>
+</header>
+
+<section>
+    <h2>O mnie</h2>
+    <p>Jestem osobą dobrze zorganizowaną, komunikatywną i gotową do nauki. Szukam pierwszej pracy biurowej, chętnie w administracji lub obsłudze klienta.</p>
+
+    <h2>Umiejętności</h2>
+    <ul>
+        <li>Podstawowa obsługa komputera (Excel, Word)</li>
+        <li>Język angielski – poziom komunikatywny</li>
+        <li>Dokładność i sumienność</li>
+    </ul>
+
+    <h2>Kontakt</h2>
+    <p>Email: jan.kowalski@example.com</p>
+    <p>Telefon: 123-456-789</p>
+    <p><a href="#">LinkedIn</a></p>
+</section>
+
+<footer>
+    &copy; 2025 Jan Kowalski
+</footer>
+
+</body>
+</html>
